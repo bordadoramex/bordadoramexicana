@@ -1,0 +1,316 @@
+
+/* ========================================= estilos generales ======================================*/
+@font-face { 
+    font-family: "FontFamilyLogo";
+    src: url("../fonts/GOODTIME.ttf");
+}
+@font-face { 
+    font-family: "FontFamilySPro";
+    src: url("../fonts/SourceSansPro-Regular.otf");
+}
+body{
+    font-family: "FontFamilySPro";
+    line-height: 1.5;
+    font-size: 1.4em;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #e0e1e1;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(137, 142, 143, 1);
+    box-shadow: 2px 0px 7px #e0e1e1;
+    z-index: 50;
+}
+.contenedor-tabla{
+    display: table;
+    width: 100%;
+}
+.contenedor-tr {
+  display: table-row;
+  width: 100%;
+}
+.contenedor-tr > a{
+    text-decoration: none;
+    color: #fff;
+}
+.contenedor-tr > a:hover{
+    background-color: rgba(207, 238, 222, 0.78);
+    transition: background-color .4s ease-in;
+    transition: background-color .4s ease-in;
+    -webkit-transition: background-color .4s ease-in;
+    -ms-transition: background-color .4s ease-in;
+    -o-transition: background-color .4s ease-in;
+}
+.contenedor-tr > a:last-child{
+    border-right: 1px solid rgba(207, 238, 222, 0.78);
+}
+.table-cell-td {
+  display: table-cell;
+  padding: 20px 7px;
+  border-left: 1px solid rgba(207, 238, 222, 0.78);
+  text-align: center;
+  width: 20%;
+}
+.table-cell-td:focus{
+    outline: none;
+}
+.logo-navbar{
+    background-image: url(assets/icons/logco-1.png);
+    width: 59px;
+    height: 59px;
+    margin-left: 2%;
+    float: left;
+}
+.text-navbar{
+    color: #fff;
+    font-size: 19px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+#mobile-menu-list{
+    display: none;
+}
+footer{
+    width: 100%;
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 220, 187, 0.904);
+    padding: 40px 0px;  
+}
+.main-footer{
+    background: rgb(146, 156, 108);
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em;
+}
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.main-footer [class*='icon-'] {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+.main-footer [class*='icon-']:before{
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+/*seccion de slider*/
+section{
+    width: 100%;
+    margin: 0px;
+    padding: 90px 0px;
+}
+article{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.main-footer [class*='icon-'] {
+    color: rgb(20, 19, 19);
+    text-decoration: none;
+    
+    
+}
+.main-footer [class*='icon-']:before{
+    position: relative;
+    top: 3px;
+    right: 5px;
+}
+
+.social-icon{
+    margin: 7px 7px;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+}
+.social-icon:hover{
+    text-decoration: none; 
+    opacity: 0.7;
+    transition: opacity .4s ease-in;
+    -moz-transition: opacity .4s ease-in;
+    -webkit-transition: opacity .4s ease-in;
+    -o-transition: opacity .4s ease-in;
+    -ms-transition: opacity .4s ease-in;
+    
+}
+.social-icon:focus{
+    outline: none;
+
+}
+.tittles-pages-logo{
+    font-family: "FontFamilyLogo";
+}
+.center-all-contens{
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrito-compras-tienda{
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+#container-carrito-compras{
+   background-color: rgb(43, 29, 29);
+   color:#fff;
+   display: none;
+}
+/* ========================================= index estilos ======================================*/
+
+h3,h1 {
+  color:#800000 ;
+  font-weight: normal;
+  font-size: 19px;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  text-shadow: 1px 1px #111,
+            2px 2px #111,
+            3px 3px #111,;
+              
+               
+}
+h5 {
+  color:#800000;
+  font-weight: normal;
+  font-size: 19px;
+  font-family: Arial;
+  text-transform: lowercase;
+}
+#container-page-index{
+    background-color:transparent; 
+    }
+    
+}
+#jumbotron-index{
+    margin: 0px;
+    padding: 140px 25px;
+    color: #fff;
+    background-color: rgba(0,0,0,.7);
+}
+#new-prod-index{
+    background-color: rgba(255,255,255,.9);
+}
+    .box{
+     display: inline-block;
+    margin: 41px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    }
+    
+
+
+.box > div{
+   border: 2px solid black;
+   position: absolute;
+   width: 100%;
+   height: 100%;  
+
+}
+   
+.front{
+
+    background: rgb(218, 245, 176);
+}
+
+.back{
+    background: rgb(247, 38, 24);
+    transform:  translateZ(-100px)
+                rotateY(90deg); 
+    left: 100px;
+    cursor: default; 
+}
+    
+
+.box{
+    transition-duration: 0.5s;
+    transform-style: preserve-3d;
+    transform-origin: left center;
+}
+    
+
+.box:hover{
+
+    transform: perspective(800px)
+                rotateY(-80deg);
+}
+
+
+
+#reg-info-index{
+    background-color: rgba(207, 238, 222, 0.78);
+    border-top: 1px solid rgba(183, 165, 165,.2);
+}
+#distribuidores-index{
+    background-color: rgb(47, 44, 33);
+    color: #000;
+}
+/* ========================================= productos estilos ======================================*/
+#container-page-product{
+    background-image: url(assets/img-products/DVC00723.JPG);
+    
+}
+#store, #infoproduct, #container-pedido{
+    background-color: #e0e1e1;
+    min-height: 900px;
+    
+}
+/* ========================================= registration estilos ======================================*/
+#container-page-registration{
+    }
+#form-registration{
+    min-height: 900px;
+    background-color: #e0e1e1;
+    padding-top: 120px;
+}
+#container-form{
+    width: 100%;
+    padding: 40px;
+    background-color: #333;
+    border-radius: 7px;
+}
+/* ========================================= configAdmin estilos ======================================*/
+#container-page-configAdmin{
+    background-image: url("assets/icons/logo.ico");
+    background-color: #fff
+}
+#prove-product-cat-config{
+    background-color: #e0e1e1;
+    min-height: 900px;
+}
+#add-product,
+#del-prod-form,
+#add-categori,
+#del-categori,
+#add-provee,
+#del-prove,
+#add-admin,
+#del-admin,
+#del-pedido{
+    border: 1px solid #e0e1e1 !important;
+    border-radius: 4px;
+    padding: 10px;
+}
